@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Styling for the container */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Styling for Textbox */
+
+.group {
+  padding: 20px;
+  outline: 1px solid #333;
+  border-radius: 20px;
+  text-align: center;
+  transform: translateY(-70px);
+  font-size: 1.5rem;
+  /* background-color: red; */
+  width: 70%;
+}
+
+.input {
+  font-size: 1.3rem;
+  width: 80%;
+}
+
+.timer {
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+  /* background: red; */
+}
+
+.wpm {
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+}
